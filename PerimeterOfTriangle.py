@@ -1,0 +1,5 @@
+print('Perimeter Of Triangle')
+s1=int(input('Enter the Side 1:'))
+s2=int(input('Enter the Side 2:'))
+s3=int(input('Enter the Side 3:'))
+print("Perimeter=",s1+s2+s3)
