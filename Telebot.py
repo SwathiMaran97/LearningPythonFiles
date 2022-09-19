@@ -18,7 +18,7 @@ clear_key = types.ReplyKeyboardRemove(selective=False)
 db_path='LotteryBot.db'
 
 # main screen button
-bot = telebot.TeleBot("1032035380:AAH_SyevPLSKg80LKg5-CBfXie1-iNL4MNY")
+bot = telebot.TeleBot("Token")
 back = types.KeyboardButton("חזור אחורה")
 canceled = types.KeyboardButton("ביטול")
 
@@ -97,7 +97,7 @@ remove_dealer_q = '''DELETE FROM user WHERE username='%s' '''
 
 get_all_users='''SELECT id,username from user WHERE winner=0'''
 
-admins = ['Muruganandham1998','yaronlondon234']
+admins = ['Swathi']
 
 ####Manager panel
 @bot.message_handler(commands=['manager'])
