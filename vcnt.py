@@ -2,8 +2,8 @@ import requests
 from lxml import html
 from bs4 import BeautifulSoup
 
-LOGIN_URL = "https://vconnect.inesssolutions.net/login"
-URL = "https://vconnect.inesssolutions.net/EndUserDashboard"
+LOGIN_URL = "https://beautyprodutcs.net/login"
+URL = "https://beautyprodutcs.net/EndUserDashboard"
 
 def main():
     session_requests = requests.session()
@@ -37,12 +37,12 @@ data = {
     'Progress': 'Completed',}
 print('jjjjj')
 
-url = "https://vconnect.inesssolutions.net/login"
+url = "https://beautyprodutcs.net/login"
 print('swa')
 response = requests.get(url, timeout=9000)
 content = BeautifulSoup(response.content, 'html.parser')
 print(content)
-UL = "https://vconnect.inesssolutions.net/EndUserDashboard"
+UL = "https://beautyprodutcs.net/EndUserDashboard"
 print('swa')
 response = requests.get(UL, timeout=9000)
 content = BeautifulSoup(response.content, 'html.parser')
