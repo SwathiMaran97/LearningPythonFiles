@@ -12,8 +12,8 @@ def main():
    
     # Create payload
     payload = {
-        "email": "swathi@inesssolutions.com", 
-	    "password": "iness123", 
+        "email": "swathi@gmail.com", 
+	    "password": "9238293921", 
 	    "csrfmiddlewaretoken": "SmfvK5QAqPKbqZeiaMkgVF9wJj4DsdyXLRr7apvU"
     }
 
@@ -24,7 +24,7 @@ def main():
 
 if __name__ == '__main__':
     main()
-    print('SAN')
+    print('Got Output')
 
 data = {
     '#': '1',
