@@ -35,7 +35,7 @@ data = {
     'Start Date': '2020-04-06',
     'End Date': '2020-04-10',
     'Progress': 'Completed',}
-print('jjjjj')
+print('test')
 
 url = "https://beautyprodutcs.net/login"
 print('swa')
